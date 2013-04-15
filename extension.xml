@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>PR Gravatar</name>
+        <version>1.0</version>
+        <copyright>Pedro Resende - http://www.pedro.resende.biz/</copyright>
+        <license>GNU General Public License v2.0</license>
+    </metadata>
+
+    <dependencies>
+        <requires>
+            <extension name="ezjscore" />
+            <extension name="ezcomments" />
+            <extension name="ezdemo" />
+        </requires>
+        <extends>
+            <extension name="ezcomments" />
+            <extension name="ezdemo" />
+        </extends>
+    </dependencies>
+
+</software>
